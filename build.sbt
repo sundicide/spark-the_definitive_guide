@@ -31,7 +31,7 @@ lazy val root = (project in file("."))
 
       // spark-modules
       "org.apache.spark" %% "spark-graphx" % sparkVersion,
-      // "org.apache.spark" %% "spark-mllib" % sparkVersion,
+      "org.apache.spark" %% "spark-mllib" % sparkVersion,
 
       // spark packages
       "graphframes" % "graphframes" % "0.4.0-spark2.1-s_2.11",
